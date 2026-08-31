@@ -1,7 +1,7 @@
 # 🛡️ Cybersecurity Fundamentals: Intro & Attack/Defense Concepts
 
 *Category: Fundamentals*  
-*Source: TryHackMe - Cyber Security 101*
+*Source: TryHackMe - Introduction to CyberSecurity *
 
 ---
 
