@@ -47,7 +47,7 @@ sudo tcpdump -r traffic.pcap arp -n
     * -n : Disables DNS name resolution to keep output fast and show raw IP addresses.
 * **Use Case**: Useful during network forensics or troubleshooting to detect ARP spoofing/poisoning attacks, IP conflict issues, or host discovery activity on a local network.
 
-## 🔍 Analyze ARP Traffic in PCAP File
+## Analyze ARP Traffic in PCAP File
 
 ```bash
 sudo tcpdump -r traffic.pcap arp -n
@@ -87,7 +87,7 @@ tcpdump -r traffic.pcap 'greater 15000' -n
     * -n : Disables DNS host resolution to speed up output and display raw numeric IP addresses.
 * **Use Case:** Crucial during network forensics and anomaly detection to identify large file transfers, data exfiltration attempts over non-standard channels, IP fragmentation issues, or abnormal Jumbo Frame traffic across network interfaces.
 
-### 🏷️ Inspect ARP Packets with Data Link (MAC) Headers
+### Inspect ARP Packets with Data Link (MAC) Headers
 
 ```bash
 tcpdump -r traffic.pcap arp -e -n -c 5
