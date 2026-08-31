@@ -2,7 +2,7 @@
 
 This brief guide lists the fundamental topics that required to build foundations in cybersecurity.
 
-## [Cybersecurity Overview](./01-fundamentals/cybersecurity-overview.md)
+## [Cybersecurity Overview](01-fundamentals/cybersecurity-overview.md)
 - **Defense and Offense:** Demand, Core Goal, Tools, Key Focus
 - **CIA Triad:** Confidentiality, Integrity, Availability — definitions and example controls.
 - **Defense-in-Depth:** Layered security controls across physical, network, host, application, and data layers.
