@@ -27,3 +27,12 @@ https://www.pcisecuritystandards.org/documents/PCI_DSS_for_Large_Organizations_v
 https://cryptii.com/pipes/caesar-cipher
 
 ## Basic Math
+
+### XOR
+* If this is the first time you work with a truth table, it is a table that shows all possible outcomes. The XOR truth table above states all four cases: 0 ⊕ 0 = 0, 0 ⊕ 1 = 1, 1 ⊕ 0 = 1, and 1 ⊕ 1 = 0.
+
+* Let’s consider an example where we want to apply XOR to the binary numbers 1010 and 1100. In this case, we perform the operation bit by bit: 1 ⊕ 1 = 0, 0 ⊕ 1 = 1, 1 ⊕ 0 = 1, and 0 ⊕ 0 = 0, resulting in 0110.
+
+
+### MODULO
+* 25%5 = 0 because 25 divided by 5 is 5, with a remainder of 0, i.e., 25 = 5 × 5 + 0
