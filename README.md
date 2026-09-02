@@ -16,9 +16,9 @@ Welcome to my technical documentation and learning journal repository. This repo
 | Folder | Coverage / Topics | Status |
 | :--- | :--- | :---: |
 | **[📁 01-Fundamentals](./01-fundamentals/)** | Linux Admin, Windows OS, Networking (TCP/IP, OSI Model) | 🟢 Active |
-| **[📁 02-Tools-Cheatsheet](./02-tools-cheatsheet/)** | Nmap, Wireshark, Burp Suite, Metasploit, Bash Scripting | 🔴 Inactive |
+| **[📁 02-Tools-Cheatsheet](./02-tools-cheatsheet/)** | Nmap, Wireshark, Burp Suite, Metasploit, Bash Scripting | 🟢 Active |
 | **[📁 03-Concepts](./03-concepts/)** | Web Security, SOC & Incident Response, OT/ICS Security | 🔴 Inactive |
-| **[📁 04-THM-Writeups](./04-thm-writeups/)** | TryHackMe Room Walkthroughs & Learning Notes | 🔴 Inactive |
+| **[📁 04-THM-Writeups](./04-thm-writeups/)** | TryHackMe Room Walkthroughs & Learning Notes | 🟢 Active |
 
 ---
 
