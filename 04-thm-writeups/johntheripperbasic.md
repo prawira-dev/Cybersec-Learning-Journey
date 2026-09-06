@@ -4,7 +4,7 @@
 Just click start the attacker machine and lab
 
 ## Cracking basic hash
-```hash
+```
 wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py
 ```
 to get hash-id.py to the attacker terminal
@@ -14,14 +14,14 @@ to get hash-id.py to the attacker terminal
 john --format=[format] --wordlist=[path to wordlist] [path to file]
 
 Example Usage:
-```hash
+```
 john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash_to_crack.txt
 ```
 there will be 3 hash to check in task 4 folder
 
 ## Cracking Password Protected Zip and Rar File
 ### Unzip using Zip2John
-```hash
+```
 zip2john [options] [zip file] > [output file]
 ```
 * **Key Flag**
@@ -31,12 +31,12 @@ zip2john [options] [zip file] > [output file]
     * `[output file]`: This is the file that will store the output
 
 **Example Usage**
-```hash
+```
 zip2john zipfile.zip > zip_hash.txt
 ```
 
 ### Cracking
-```hash
+```
 john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt
 ```
 * **Key Flag**
@@ -45,7 +45,7 @@ john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt
     * /usr/share/wordlists/rockyou.txt
     * zip_hash.txt
 
-```hash
+```
 unzip -P PASSWORD secure.zip
 ```
 * **Key Flag**
