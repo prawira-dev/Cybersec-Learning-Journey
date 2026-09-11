@@ -8,14 +8,14 @@
 ## Digital Forensics Methodology
 * **Overview:** Details the standard four-phase digital forensics framework defined by the National Institute of Standards and Technology (NIST), outlining how cases are systematically handled from evidence gathering to final reporting.
 
-![digital-Forensics](../images/digital-forensics-1.png)
+![digital-Forensics](../../images/digital-forensics-1.png)
 * **The Four Phases of Digital Forensics:**
     * **Collection:** Identifying and seizing digital evidence sources (computers, laptops, digital cameras, USBs) at a crime scene while ensuring original data is untampered and meticulously documented.
     * **Examination:** Filtering and extracting specific data of interest from overwhelming volumes of collected raw data (such as isolating media files from a precise date or extracting a single user's records).
     * **Analysis:** Correlating multiple pieces of evidence chronologically to draw conclusions, reconstruct timelines, and map out activities relevant to the case.
     * **Reporting:** Compiling a detailed final document outlining the investigation's methodology, findings, and recommendations, complete with executive summaries tailored for law enforcement and management.
 
-![digital-Forensics](../images/digital-forensics-2.png)
+![digital-Forensics](../../images/digital-forensics-2.png)
 * **Common Types of Digital Forensics:**
     * **Computer Forensics:** Investigating compromised or seized computers and standard digital hardware.
     * **Mobile Forensics:** Extracting mobile device evidence such as text messages, call logs, and GPS location history.

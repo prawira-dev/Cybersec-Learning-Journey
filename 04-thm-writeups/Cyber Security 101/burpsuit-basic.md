@@ -11,14 +11,14 @@
 ## What is Burp Suite 
 * **Overview:** Introduces Burp Suite as a Java-based, industry-standard framework used for conducting manual and automated web application and API penetration testing by intercepting and manipulating HTTP/HTTPS traffic.
 
-![burpsuit](../images/burpsuit.png)
+![burpsuit](../../images/burpsuit.png)
 
 * **Editions of Burp Suite:**
     * Burp Suite Community Edition: A free, local version for non-commercial use, ideal for learning manual security testing and core proxy features.
     * Burp Suite Professional: A paid, unrestricted version packed with advanced features like an automated vulnerability scanner, an unthrottled fuzzer/brute-forcer, session state saving, an API for tool integration, and Burp Collaborator.
     * Burp Suite Enterprise: A server-based edition designed for automated, continuous vulnerability scanning across web applications.
 
-![burpsuit](../images/burpsuit-ent.png)
+![burpsuit](../../images/burpsuit-ent.png)
 
 ## Features of Burp Community
 * ***Overview:*** Explores the powerful suite of built-in tools included in the free Community Edition of Burp Suite, highlighting how each module assists during web application security testing.

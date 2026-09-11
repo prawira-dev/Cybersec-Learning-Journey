@@ -19,7 +19,7 @@
 ## Why SIEM?
 * **Overview:** Explores how a Security Information and Event Management (SIEM) solution efficiently manages the flood of decentralized logs and provides robust operational features to enhance security.
 
-![siem1](../images/siem1.png)
+![siem1](../../images/siem1.png)
 
 * **Core Features of SIEM:**
     * **Centralized Log Collection:** Gathers logs from diverse network sources (endpoints, servers, firewalls) into a single platform using lightweight agents or APIs, eliminating the need to manually check individual machines.
@@ -32,7 +32,7 @@
 ## Log Sources and Ingestion
 * **Overview:** Explores where common network devices generate logs and details how those diverse log streams are ingested into a central SIEM platform.
 
-![siem2](../images/siem2.gif)
+![siem2](../../images/siem2.gif)
 
 * **Common Log Sources:**
     * **Windows Machine:** Records activity through the Event Viewer using unique Event IDs for each type of action (such as logins, process creations, and system warnings).

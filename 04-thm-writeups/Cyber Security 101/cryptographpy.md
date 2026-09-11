@@ -10,10 +10,10 @@ https://www.pcisecuritystandards.org/documents/PCI_DSS_for_Large_Organizations_v
 
 ## Plaintext to Ciphertext 
 ### **Sending proccess**
-![Sender](../images/sender.svg)
+![Sender](../../images/sender.svg)
 
 ### **Recive proccess**
-![Recipient](../images/recipient.svg)
+![Recipient](../../images/recipient.svg)
 
 * **Plaintext** is the original, readable message or data before it’s encrypted. It can be a document, an image, a multimedia file, or any other binary data.
 * **Ciphertext** is the scrambled, unreadable version of the message after encryption. Ideally, we cannot get any information about the original plaintext except its approximate size.

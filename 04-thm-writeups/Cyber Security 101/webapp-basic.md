@@ -24,7 +24,7 @@ The unseen underlying engine and infrastructure that enables the application to 
 
 ## Uniform Resource Locator
 * Overview: A URL is a web address that guides your browser to a specific resource on the internet. Understanding its anatomy is crucial for web browsing, development, and security troubleshooting.
-![url-anatomy](../images/url-anatomy.png)
+![url-anatomy](../../images/url-anatomy.png)
 Source: TryHackMe
 * Anatomy of a URL:
     * Scheme (Protocol): Defines how the resource is accessed. The most common are HTTP and HTTPS. HTTPS is highly recommended as it encrypts the communication.

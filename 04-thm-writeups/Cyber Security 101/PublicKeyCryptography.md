@@ -20,14 +20,14 @@ RSA is a public-key encryption algorithm that enables secure data transmission o
 RSA is based on the mathematically difficult problem of factoring a large number. Multiplying two large prime numbers is a straightforward operation; however, finding the factors of a huge number takes much more computing power.
 
 ### Numerical Example
-![encrypt-decrypt](../images/encrypt-decrypt.svg)
+![encrypt-decrypt](../../images/encrypt-decrypt.svg)
 * Bob chooses two prime numbers: p = 157 and q = 199. He calculates n = p × q = 31243.
 * With ϕ(n) = n − p − q + 1 = 31243 − 157 − 199 + 1 = 30888, Bob selects e = 163 such that e is relatively prime to ϕ(n); moreover, he selects d = 379, where e × d = 1 mod ϕ(n), i.e., e × d = 163 × 379 = 61777 and 61777 mod 30888 = 1. The public key is (n,e), i.e., (31243,163) and the private key is $(n,d), i.e., (31243,379).
 * Let’s say that the value they want to encrypt is x = 13, then Alice would calculate and send y = xe mod n = 13163 mod 31243 = 16341.
 * Bob will decrypt the received value by calculating x = yd mod n = 16341379 mod 31243 = 13. This way, Bob recovers the value that Alice sent.
 
 ## Diffie-Hellman Key Exchange
-![Diffie-Hellman](../images/Diffie-Hellman.svg)
+![Diffie-Hellman](../../images/Diffie-Hellman.svg)
 
 Diffie-Hellman Key Exchange is often used alongside RSA public key cryptography. Diffie-Hellman is used for key agreement, while RSA is used for digital signatures, key transport, and authentication, among many others.
 
@@ -81,7 +81,7 @@ There will be question about SSH using attacker box.
 
 ## Digital Signatures and Certificate
 Digital signatures provide a way to verify the authenticity and integrity of a digital message or document. 
-![encrypt-decrypt](../images/encrypt-decrypt.svg)
+![encrypt-decrypt](../../images/encrypt-decrypt.svg)
 
 > [!TIP]
 > Certificates: Prove Who You Are!
