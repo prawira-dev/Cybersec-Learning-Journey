@@ -24,7 +24,7 @@ Welcome to my technical documentation and learning journal repository. This repo
 
 ## 🎯 Progress & Milestones
 
-- [x] **PreSec Path** - TryHackMe *(Completed: Aug 2026)*
-- [ ] **Cyber Security 101 Path** - TryHackMe *(In Progress)*
+- [x] **PreSec Path** - TryHackMe *(Completed: 27 Aug 2026)*
+- [x] **Cyber Security 101 Path** - TryHackMe *(Completed: 12 Sep 2026)*
 - [ ] **Junior Penetration Tester / SOC Level 1** - TryHackMe
 - [ ] **CompTIA Security+** / **eJPT Certification**

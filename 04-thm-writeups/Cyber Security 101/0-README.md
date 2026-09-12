@@ -7,8 +7,8 @@ Documentation and walkthrough notes for the **Cyber Security 101** learning path
 ## 📊 Progress Overview
 
 - **Total Rooms:** 59
-- **Completed:** 47 / 59 (79.7%)
-- **Remaining:** 12
+- **Completed:** 59 / 59 (100%)
+- **Remaining:** 0
 
 | Module | Module Name | Total Rooms | Completed | Status |
 | :---: | :--- | :---: | :---: | :---: |
@@ -22,10 +22,10 @@ Documentation and walkthrough notes for the **Cyber Security 101** learning path
 | **08** | Web Hacking | 4 | 4 | 🟢 Completed |
 | **09** | Offensive Security Tooling | 4 | 4 | 🟢 Completed |
 | **10** | Defensive Security | 5 | 5 | 🟢 Completed |
-| **11** | Security Solutions | 4 | 2 | 🟡 In Progress |
-| **12** | Defensive Security Tooling | 4 | 0 | ⚪ Pending |
-| **13** | Build Your Cyber Security Career | 3 | 0 | ⚪ Pending |
-| **14** | OWASP Top 10 (2025) | 3 | 0 | ⚪ Pending |
+| **11** | Security Solutions | 4 | 4 | 🟢 Completed |
+| **12** | Defensive Security Tooling | 4 | 4 | 🟢 Completed |
+| **13** | Build Your Cyber Security Career | 3 | 3 | 🟢 Completed |
+| **14** | OWASP Top 10 (2025) | 3 | 3 | 🟢 Completed |
 
 ---
 
@@ -98,22 +98,30 @@ Documentation and walkthrough notes for the **Cyber Security 101** learning path
 
 ### Module 11: Security Solutions
 - [x] [Introduction to SIEM](./siem-intro.md)
-- [ ] Firewall Fundamentals
-- [ ] IDS Fundamentals
-- [ ] Vulnerability Scanner Overview
+- [x] [Firewall Fundamentals](./firewall-fundamentals.md)
+- [x] [IDS Fundamentals](./ids-fundamentals.md)
+- [x] [Vulnerability Scanner Overview](./vulnerability-scanner.md)
 
 ### Module 12: Defensive Security Tooling
-- [ ] CyberChef: The Basics
-- [ ] CAPA: The Basics
-- [ ] REMnux: Getting Started
-- [ ] FlareVM: Arsenal of Tools
+- [x] [CyberChef: The Basics](./cyberchef-basic.md)
+- [x] [CAPA: The Basics](./capa-basic.md)
+- [x] [REMnux: Getting Started](./REMnux.md)
+- [x] [FlareVM: Arsenal of Tools](./flarevm_arsenal-of-tools.md)
 
 ### Module 13: Build Your Cyber Security Career
-- [ ] Security Principles
-- [ ] Careers in Cyber
-- [ ] Training Impact on Teams
+- [x] [Security Principles](./security-principles.md)
+- [x] Careers in Cyber
+- [x] [Training Impact on Teams](./training-impact-on-teams.md)
 
 ### Module 14: OWASP Top 10 (2025)
-- [ ] OWASP Top 10 2025: IAAA Failures
-- [ ] OWASP Top 10 2025: Application Design Flaws
-- [ ] OWASP Top 10 2025: Insecure Data Handling
+- [x] [OWASP Top 10 2025: IAAA Failures](./owasp-iaaafailures.md)
+- [x] [OWASP Top 10 2025: Application Design Flaws](./owasp-Application-Design-Flaws.md)
+- [x] [OWASP Top 10 2025: Insecure Data Handling](./owasp-Insecure-Data-Handling.md)
+
+---
+
+### 💡 Lab Notes
+Important Command for accessing the lab machine:
+```bash
+xfreerdp /u:Administrator /p:logs@123 /v:<TARGET_MACHINE_IP>
+```
